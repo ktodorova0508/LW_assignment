@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { languagePairsUrl, translateDocUrl, translateTextUrl } from './shared.ts/urls';
-import { authorization } from './shared.ts/token';
-import { translatesTextExpanded, uploadFile } from './shared.ts/fixtures';
+import { languagePairsUrl, translateDocUrl, translateTextUrl } from '../lib/shared.ts/urls';
+import { authorization } from '../lib/shared.ts/token';
+import { translatesTextExpanded, uploadFile } from '../lib/shared.ts/fixtures';
 
 test.describe('API tests', () => {
 

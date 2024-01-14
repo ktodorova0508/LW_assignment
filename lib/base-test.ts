@@ -1,6 +1,6 @@
 
-import { TestInfo, test as baseTest } from '@playwright/test';
-import { ElementsPage } from '../tests/shared.ts/page-objects';
+import {test as baseTest } from '@playwright/test';
+import { ElementsPage } from './shared.ts/page-objects';
 
 
 
