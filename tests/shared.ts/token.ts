@@ -1,0 +1,5 @@
+export const token = 'Agito xmYzQY9foY5JutVunRsEe1QSAJNezIGXtqR1IOB9Uq0%3D.eyJOb25jZSI6ICJOb25jZSIsICJGaXJzdE5hbWUiOiAiRmlyc3ROYW1lIiwgIkxhc3ROYW1lIjogIkxhc3ROYW1lIiwgIlBob3RvRnNlSWQiOiAiUGhvdG9Gc2VJZCIsICJVc2VySWQiOiAxMTA1Njg5LCAiRGVmYXVsdENvbXBhbnlJZCI6IDEsICJMd3RTdWJzY3JpcHRpb25JZCI6IG51bGwsICJQZXJtaXNzaW9ucyI6IFszMDkyXSwgIkV4cGlyYXRpb25UaW1lIjogIi9EYXRlKDE3MDU0MDA0MTgyMDYpLyJ9'
+export const authorization = {
+    'Authorization': token,
+    'Content-Type': 'application/json'
+}
